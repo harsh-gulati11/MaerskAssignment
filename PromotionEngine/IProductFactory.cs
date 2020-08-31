@@ -12,7 +12,5 @@ namespace PromotionEngine
         decimal Price { get; set; }
         Promotion ProductPromotion { get; set; }
 
-        // void GetProductsDetails(string Id);
-        //   Promotion GetPromotionDetails();
     }
 }

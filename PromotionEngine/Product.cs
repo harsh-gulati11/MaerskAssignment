@@ -10,10 +10,10 @@ namespace PromotionEngine
     {
 
 
-        public Products(string v, List<IProductFactory> lstOfProduct)
+        public Products(string _Id, List<IProductFactory> _lstOfProduct)
         {
-            this.ProdId = v;
-            this.ProdPerUnitPrice = lstOfProduct.Find(x => x.Id == v).Price;
+            this.ProdId = _Id;
+            this.ProdPerUnitPrice = _lstOfProduct.Find(x => x.Id == _Id).Price;
         }
 
         public string ProdId { get; set; }

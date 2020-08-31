@@ -27,12 +27,7 @@ namespace PromotionEngine
             return activePromo;
         }
 
-        //public void GetProductsDetails(string Id)
-        //{
-        //    this.Price = 50m;
-        //    this.Id = "A";
-        //    this.ProductPromotion = GetPromotionDetails();
-        //}
+       
     }
 
 }
